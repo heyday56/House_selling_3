@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Change Account</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<form method="post" id="login" onsubmit="return loginValidate();">
+	<label class="massege">Give Your Old Account</label>
+	<input type="email" name="email" id="username" required placeholder="Type your email" class="login">
+	<label id="errUser" class="massege"></label>
+	<input type="password" name="password" id="pass" placeholder="Type your password" class="login" required>
+	<label id="errPass" class="massege"></label>
+	<input type="submit" name="submit" id="sub" value="login" class="login">
+</form>
+<script type="text/javascript" src="script/javaScript.js"></script>
+</body>
+</html>

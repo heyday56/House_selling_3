@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>House list</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+</head>
+<body>
+<nav id="listMenu">
+	<a href="logout.html" class="fa-solid fa-right-from-bracket" id="logout"></a>
+	<a href="add_house.html" class="addChange" >Add house</a>
+	<a href="change_account.html">Change Account</a>
+	<input type="search" name="q" placeholder="Search By ID" id="searchHouse">
+
+</nav>
+
+<div id="houseList">
+	<table>
+		<thead>
+			<tr>
+				<th>House ID</th>
+				<th>Description</th>
+				<th>Photo</th>
+				<th>Edit</th>
+				<th>Sell</th>
+				<th>Delete</th>
+				<th>Sold</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>this is located in kabul. It has four floor and eight rooms. It is cost 30000$</td>
+				<td><img src="image/house1.jpg"></td>
+				<td><a href="edit_house.html">Edit</a></td>
+				<td><a href="sell_house.html">Sell</a></td>
+				<td><a href="delete_house.html">Delete</a></td>
+				<td>Yes</td>
+			</tr>
+		</tbody>
+	</table>
+
+</div>
+
+<script type="text/javascript" src="script/javaScript.js"></script>
+</body>
+</html>
